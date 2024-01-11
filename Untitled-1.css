@@ -1,0 +1,10 @@
+/* Для посилань, href яких починається з https */
+a[href^="https"] {
+    color: red;
+  }
+  
+  /* Для <p>, який іде після <ul> */
+  ul + p {
+    font-size: 24px;
+  }
+  
